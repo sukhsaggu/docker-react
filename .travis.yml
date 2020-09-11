@@ -1,4 +1,4 @@
-sudo: required
+sudo: requiredi
 language: generic
 services:
   - docker
@@ -12,7 +12,7 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: ce-central-1
+  region: ca-central-1
   app: "docker-react"
   env: "DockerReact-env"
   bucket_name: "elasticbeanstalk-ca-central-1-158316072815"
